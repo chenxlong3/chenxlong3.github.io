@@ -1,17 +1,15 @@
 ---
 layout: about
-title: about
+title: About
 permalink: /
-subtitle: <a href='#'>HKUST(GZ)</a>. Address. Contacts. Motto. Etc.
+subtitle: <a href='#'>HKUST(GZ)</a>. Duxue Rd 1st, Nansha, Guangzhou, Guangdong.
 
 profile:
   align: right
   image: prof_pic.jpg
   image_circular: false # crops the image to make it circular
   more_info: >
-    <p>555 your office number</p>
-    <p>123 your address street</p>
-    <p>Your City, State 12345</p>
+    
 
 selected_papers: true # includes a list of papers marked as "selected={true}"
 social: true # includes social icons at the bottom of the page
@@ -27,4 +25,4 @@ latest_posts:
   limit: 3 # leave blank to include all the blog posts
 ---
 
-Xiaolong CHEN is currently a year-4 PhD candidate of the Hong Kong University of Science and Technology (Guangzhou), majoring in Data Science and Analytics. Before that, he got a master’s degree in Data-Driven Modeling at HKUST in 2022 and bachelor’s degree in Science (majoring in Opto-electronic Information Science and Engineering).
+Xiaolong CHEN is currently a year-4 PhD candidate of the Hong Kong University of Science and Technology (Guangzhou), majoring in Data Science and Analytics. Before that, he got a master’s degree in Data-Driven Modeling at HKUST in 2022 and bachelor’s degree in Science (majoring in Opto-electronic Information Science and Engineering) from Sun Yat-Sen University in 2021.
