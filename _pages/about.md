@@ -6,7 +6,7 @@ subtitle: <a href='#'>HKUST(GZ)</a>. Duxue Rd 1st, Nansha, Guangzhou, Guangdong.
 
 profile:
   align: right
-  image: prof_pic.jpg
+  image:
   image_circular: false # crops the image to make it circular
   more_info: >
     
