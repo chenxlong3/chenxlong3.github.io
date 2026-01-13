@@ -20,24 +20,10 @@
   preview={brownian-motion.gif}
 }
 
-@article{einstein1950meaning,
-  abbr={AJP},
-  bibtex_show={true},
-  title={The meaning of relativity},
-  author={Einstein, Albert and Taub, AH},
-  journal={American Journal of Physics},
-  volume={18},
-  number={6},
-  pages={403--404},
-  year={1950},
-  publisher={American Association of Physics Teachers}
-}
-
 @article{PhysRev.47.777,
   abbr={PhysRev},
   title={Can Quantum-Mechanical Description of Physical Reality Be Considered Complete?},
   author={Einstein*†, A. and Podolsky*, B. and Rosen*, N.},
-  abstract={In a complete theory there is an element corresponding to each element of reality. A sufficient condition for the reality of a physical quantity is the possibility of predicting it with certainty, without disturbing the system. In quantum mechanics in the case of two physical quantities described by non-commuting operators, the knowledge of one precludes the knowledge of the other. Then either (1) the description of reality given by the wave function in quantum mechanics is not complete or (2) these two quantities cannot have simultaneous reality. Consideration of the problem of making predictions concerning a system on the basis of measurements made on another system that had previously interacted with it leads to the result that if (1) is false then (2) is also false. One is thus led to conclude that the description of reality as given by a wave function is not complete.},
   journal={Phys. Rev.},
   location={New Jersey},
   volume={47},
@@ -54,7 +40,6 @@
   altmetric={248277},
   dimensions={true},
   google_scholar_id={qyhmnyLat1gC},
-  video={https://www.youtube-nocookie.com/embed/aqz-KE-bpKQ},
   additional_info={. *More Information* can be [found here](https://github.com/alshedivat/al-folio/)},
   annotation={* Example use of superscripts<br>† Albert Einstein},
   selected={true},
@@ -82,10 +67,79 @@
   year={1905}
 }
 
-@article{einstein1905electrodynamics,
-  title={On the electrodynamics of moving bodies},
-  author={Einstein, A.},
-  year={1905}
+@inproceedings{chen2024link,
+  title={Link recommendation to augment influence diffusion with provable guarantees},
+  author={Chen, Xiaolong and Song, Yifan and Tang, Jing},
+  booktitle={Proceedings of the ACM Web Conference 2024},
+  pages={2509--2518},
+  year={2024},
+  selected={true},
+  abbr={WWW 2024},
+}
+
+@inproceedings{chen2025scalable,
+author = {Chen, Xiaolong and Tang, Jing},
+title = {Scalable Link Recommendation for Influence Maximization},
+year = {2025},
+isbn = {9798400712456},
+publisher = {Association for Computing Machinery},
+address = {New York, NY, USA},
+url = {https://doi.org/10.1145/3690624.3709190},
+doi = {10.1145/3690624.3709190},
+booktitle = {Proceedings of the 31st ACM SIGKDD Conference on Knowledge Discovery and Data Mining V.1},
+pages = {130–141},
+numpages = {12},
+keywords = {influence maximization, social networks},
+location = {Toronto ON, Canada},
+series = {KDD '25},
+abbr={KDD 2025},
+selected={true},
+}
+
+@article{chen2026imaus,
+author = {Chen, Xiaolong and Tang, Jing},
+title = {Augmenting Social Influence of Uncertain Seeds via Probabilistic
+Link Insertion},
+year = {2025},
+publisher = {VLDB Endowment},
+volume = {19},
+number = {4},
+issn = {2150-8097},
+url = {},
+doi = {},
+journal = {Proc. VLDB Endow.},
+month = dec,
+pages = {755 - 768},
+numpages = {14},
+abbr = {VLDB 2026},
+selected={true},
+}
+
+@inproceedings{luoyou,
+  title={You Only Sample Once: Taming One-Step Text-to-Image Synthesis by Self-Cooperative Diffusion GANs},
+  author={Luo, Yihong and Chen, Xiaolong and Qu, Xinghua and Hu, Tianyang and Tang, Jing},
+  booktitle={The Thirteenth International Conference on Learning Representations},
+  abbr={ICLR 2025},
+  selected={true},
+}
+
+@article{song2025graph,
+author = {Song, Yifan and Chen, Xiaolong and Lin, Wenqing and Li, Jia and Zhang, Chen and Zhou, Yan and Chen, Lei and Tang, Jing},
+title = {Efficient Graph Embedding Generation and Update for Large-Scale Temporal Graph},
+year = {2024},
+issue_date = {December 2024},
+publisher = {VLDB Endowment},
+volume = {18},
+number = {4},
+issn = {2150-8097},
+url = {https://doi.org/10.14778/3717755.3717756},
+doi = {10.14778/3717755.3717756},
+abstract = {Graph embedding aims at mapping each node to a low-dimensional vector, beneficial for various applications like pattern matching, retrieval augmented generation and recommendation. In this paper, we study the large-scale temporal graph embedding problem. Different from simple graphs, each edge has a timestamp in temporal graphs, which requires the embeddings to encode the temporal biases. Factorizing similarity matrix is a common approach for generating simple graph embeddings where similarity can be well characterized by some conventional metrics like personalized PageRank. However, how to construct a similarity that can encode interactions with temporal biases is a critical problem for large scale temporal graphs. To address this, we introduce the concept of temporal-based bipartite graph (TBG) and develop the temporal preferential attachment similarity (TPASim) that reflects concurrent node activity over time. Directly factorizing the TPASim matrix, which contains nearly n2 non-zeros, is not feasible for large graphs with n nodes. Instead, we present LTGE, which constructs and factorizes a temporal matrix with at most 2m non-zeros, where m is the number of edges. Our theoretical analysis shows that LTGE achieves the same embeddings as factorizing the TPASim matrix but significantly reduces complexity by a factor of n2/m. On the other hand, when graphs evolve over time, to avoid recomputing, we further propose LTGEInc that utilizes a novel incremental singular value decomposition (SVD) algorithm with provable guarantee for updating the embeddings. Extensive experiments on several datasets with up to 17 million nodes and 1.3 billion edges demonstrate that LTGE outperforms the state of the art significantly and is orders of magnitude faster than the baselines specially designed for temporal graphs. For embeddings update, LTGEInc retains the performance with small computational overhead.},
+journal = {Proc. VLDB Endow.},
+month = dec,
+pages = {929–942},
+numpages = {14},
+abbr = {VLDB 2025}
 }
 
 @Article{einstein1905photoelectriceffect,
