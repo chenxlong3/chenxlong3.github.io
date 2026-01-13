@@ -25,4 +25,4 @@ latest_posts:
   limit: 3 # leave blank to include all the blog posts
 ---
 
-Xiaolong CHEN is currently a year-4 PhD candidate of the Hong Kong University of Science and Technology (Guangzhou), majoring in Data Science and Analytics. Before that, he got a master’s degree in Data-Driven Modeling at HKUST in 2022 and bachelor’s degree in Science (majoring in Opto-electronic Information Science and Engineering) from Sun Yat-Sen University in 2021.
+Xiaolong CHEN is currently a year-4 PhD candidate of the Hong Kong University of Science and Technology (Guangzhou), majoring in Data Science and Analytics. Before that, he got a master’s degree in Data-Driven Modeling at HKUST in 2022 and bachelor’s degree in Science (majoring in Opto-electronic Information Science and Engineering) from Sun Yat-Sen University in 2021. His research interests include social networks, graph algorithms, generative models and so on.
