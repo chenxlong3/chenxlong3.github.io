@@ -30,15 +30,15 @@ ninja.data = [{
           handler: () => {
             window.location.href = "/teaching/";
           },
-        },{id: "post-a-post-with-formatting-and-links",
+        },{id: "post-线性回归-机器学习的-hello-world",
         
-          title: "a post with formatting and links",
+          title: "线性回归：机器学习的“Hello, World“",
         
-        description: "march &amp; april, looking forward to summer",
+        description: "",
         section: "Posts",
         handler: () => {
           
-            window.location.href = "/blog/2015/formatting-and-links/";
+            window.location.href = "/blog/2021/linear-regression/";
           
         },
       },{id: "books-the-godfather",
