@@ -41,6 +41,17 @@ ninja.data = [{
             window.location.href = "/blog/2021/linear-regression/";
           
         },
+      },{id: "post-纯粹直觉地理解主成分分析-pca",
+        
+          title: "纯粹直觉地理解主成分分析 (PCA)",
+        
+        description: "",
+        section: "Posts",
+        handler: () => {
+          
+            window.location.href = "/blog/2021/pca/";
+          
+        },
       },{id: "books-the-godfather",
           title: 'The Godfather',
           description: "",
