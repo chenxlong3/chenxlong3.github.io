@@ -2,7 +2,7 @@
 layout: post
 title: 线性回归：机器学习的“Hello, World“
 date: 2021-06-16 20:41:18
-tags: "Machine Learning"
+tags: "Learning"
 mathjax: true
 related_posts: false
 ---
