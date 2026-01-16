@@ -30,15 +30,26 @@ ninja.data = [{
           handler: () => {
             window.location.href = "/teaching/";
           },
-        },{id: "post-im",
+        },{id: "post-社交网络影响力最大化-are-we-there-yet",
         
-          title: "Im",
+          title: "社交网络影响力最大化：Are we there yet?",
         
         description: "",
         section: "Posts",
         handler: () => {
           
             window.location.href = "/blog/2025/IM/";
+          
+        },
+      },{id: "post-vscode-jupyter在远程服务器上没有可选kernel",
+        
+          title: "VSCode+Jupyter在远程服务器上没有可选kernel",
+        
+        description: "",
+        section: "Posts",
+        handler: () => {
+          
+            window.location.href = "/blog/2023/no-jupyter-kernel/";
           
         },
       },{id: "post-线性回归-机器学习的-hello-world",
