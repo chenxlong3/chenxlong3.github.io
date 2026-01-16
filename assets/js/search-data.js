@@ -30,7 +30,18 @@ ninja.data = [{
           handler: () => {
             window.location.href = "/teaching/";
           },
-        },{id: "post-线性回归-机器学习的-hello-world",
+        },{id: "post-im",
+        
+          title: "Im",
+        
+        description: "",
+        section: "Posts",
+        handler: () => {
+          
+            window.location.href = "/blog/2025/IM/";
+          
+        },
+      },{id: "post-线性回归-机器学习的-hello-world",
         
           title: "线性回归：机器学习的“Hello, World“",
         
