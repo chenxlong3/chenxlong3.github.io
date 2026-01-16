@@ -41,6 +41,17 @@ ninja.data = [{
             window.location.href = "/blog/2025/IM/";
           
         },
+      },{id: "post-about-args-and-kwargs",
+        
+          title: "About *args and **kwargs",
+        
+        description: "",
+        section: "Posts",
+        handler: () => {
+          
+            window.location.href = "/blog/2023/args-kwargs/";
+          
+        },
       },{id: "post-vscode-jupyter在远程服务器上没有可选kernel",
         
           title: "VSCode+Jupyter在远程服务器上没有可选kernel",
