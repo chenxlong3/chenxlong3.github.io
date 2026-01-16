@@ -1,8 +1,8 @@
 ---
 layout: post
 title: About *args and **kwargs
-date: 2023/11/20
-tags: "Research"
+date: 2023-11-20
+tags: "Techniques"
 mathjax: true
 comments: true
 related_posts: false
