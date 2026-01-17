@@ -63,9 +63,9 @@ ninja.data = [{
             window.location.href = "/blog/2023/no-jupyter-kernel/";
           
         },
-      },{id: "post-ssh-nopwd",
+      },{id: "post-ssh免密登陆配置",
         
-          title: "Ssh Nopwd",
+          title: "ssh免密登陆配置",
         
         description: "",
         section: "Posts",
