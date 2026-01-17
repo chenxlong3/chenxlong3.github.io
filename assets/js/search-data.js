@@ -63,6 +63,17 @@ ninja.data = [{
             window.location.href = "/blog/2023/no-jupyter-kernel/";
           
         },
+      },{id: "post-ssh-nopwd",
+        
+          title: "Ssh Nopwd",
+        
+        description: "",
+        section: "Posts",
+        handler: () => {
+          
+            window.location.href = "/blog/2023/ssh-nopwd/";
+          
+        },
       },{id: "post-线性回归-机器学习的-hello-world",
         
           title: "线性回归：机器学习的“Hello, World“",
