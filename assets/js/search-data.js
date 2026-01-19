@@ -74,6 +74,17 @@ ninja.data = [{
             window.location.href = "/blog/2023/no-jupyter-kernel/";
           
         },
+      },{id: "post-linux-相关命令",
+        
+          title: "Linux 相关命令",
+        
+        description: "",
+        section: "Posts",
+        handler: () => {
+          
+            window.location.href = "/blog/2023/linux-command/";
+          
+        },
       },{id: "post-ssh免密登陆配置",
         
           title: "ssh免密登陆配置",
