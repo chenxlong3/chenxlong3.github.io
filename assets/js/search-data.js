@@ -30,7 +30,18 @@ ninja.data = [{
           handler: () => {
             window.location.href = "/teaching/";
           },
-        },{id: "post-社交网络影响力最大化-are-we-there-yet",
+        },{id: "post-diffusionnft环境配置踩坑合集",
+        
+          title: "DiffusionNFT环境配置踩坑合集",
+        
+        description: "",
+        section: "Posts",
+        handler: () => {
+          
+            window.location.href = "/blog/2026/NFTenv/";
+          
+        },
+      },{id: "post-社交网络影响力最大化-are-we-there-yet",
         
           title: "社交网络影响力最大化：Are we there yet?",
         
