@@ -129,6 +129,17 @@ ninja.data = [{
             window.location.href = "/blog/2023/wget-conn-refused/";
           
         },
+      },{id: "post-质数表的建立2-欧拉筛法",
+        
+          title: "质数表的建立2——欧拉筛法",
+        
+        description: "",
+        section: "Posts",
+        handler: () => {
+          
+            window.location.href = "/blog/2023/euler-sieve/";
+          
+        },
       },{id: "post-ssh免密登陆配置",
         
           title: "ssh免密登陆配置",
@@ -162,9 +173,9 @@ ninja.data = [{
             window.location.href = "/blog/2021/wlln/";
           
         },
-      },{id: "post-diffusionnft环境配置踩坑合集",
+      },{id: "post-质数表的建立",
         
-          title: "DiffusionNFT环境配置踩坑合集",
+          title: "质数表的建立",
         
         description: "",
         section: "Posts",
