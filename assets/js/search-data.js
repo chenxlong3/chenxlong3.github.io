@@ -162,6 +162,17 @@ ninja.data = [{
             window.location.href = "/blog/2021/wlln/";
           
         },
+      },{id: "post-diffusionnft环境配置踩坑合集",
+        
+          title: "DiffusionNFT环境配置踩坑合集",
+        
+        description: "",
+        section: "Posts",
+        handler: () => {
+          
+            window.location.href = "/blog/2021/prime-table/";
+          
+        },
       },{id: "post-线性回归-机器学习的-hello-world",
         
           title: "线性回归：机器学习的“Hello, World“",
