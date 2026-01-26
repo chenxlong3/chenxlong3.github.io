@@ -140,6 +140,28 @@ ninja.data = [{
             window.location.href = "/blog/2023/ssh-nopwd/";
           
         },
+      },{id: "post-sum-and-product-puzzle-像程序员一样思考",
+        
+          title: "Sum and Product Puzzle——像程序员一样思考",
+        
+        description: "",
+        section: "Posts",
+        handler: () => {
+          
+            window.location.href = "/blog/2021/sppuzzle/";
+          
+        },
+      },{id: "post-弱大数定律的推导及意义",
+        
+          title: "弱大数定律的推导及意义",
+        
+        description: "",
+        section: "Posts",
+        handler: () => {
+          
+            window.location.href = "/blog/2021/wlln/";
+          
+        },
       },{id: "post-线性回归-机器学习的-hello-world",
         
           title: "线性回归：机器学习的“Hello, World“",
