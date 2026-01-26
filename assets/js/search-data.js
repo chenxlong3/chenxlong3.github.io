@@ -30,7 +30,18 @@ ninja.data = [{
           handler: () => {
             window.location.href = "/teaching/";
           },
-        },{id: "post-diffusionnft环境配置踩坑合集",
+        },{id: "post-",
+        
+          title: "",
+        
+        description: "",
+        section: "Posts",
+        handler: () => {
+          
+            window.location.href = "/blog/2026/2023-03-10-wget-conn-refused/";
+          
+        },
+      },{id: "post-diffusionnft环境配置踩坑合集",
         
           title: "DiffusionNFT环境配置踩坑合集",
         
@@ -61,6 +72,17 @@ ninja.data = [{
         handler: () => {
           
             window.location.href = "/blog/2023/args-kwargs/";
+          
+        },
+      },{id: "post-building-wheels-for-torch-sparse-takes-forever",
+        
+          title: "Building wheels for torch_sparse takes forever",
+        
+        description: "",
+        section: "Posts",
+        handler: () => {
+          
+            window.location.href = "/blog/2023/install-torch-sparse/";
           
         },
       },{id: "post-vscode-jupyter在远程服务器上没有可选kernel",
