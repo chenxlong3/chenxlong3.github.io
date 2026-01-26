@@ -30,18 +30,7 @@ ninja.data = [{
           handler: () => {
             window.location.href = "/teaching/";
           },
-        },{id: "post-",
-        
-          title: "",
-        
-        description: "",
-        section: "Posts",
-        handler: () => {
-          
-            window.location.href = "/blog/2026/2023-03-10-wget-conn-refused/";
-          
-        },
-      },{id: "post-diffusionnft环境配置踩坑合集",
+        },{id: "post-diffusionnft环境配置踩坑合集",
         
           title: "DiffusionNFT环境配置踩坑合集",
         
@@ -127,6 +116,17 @@ ninja.data = [{
         handler: () => {
           
             window.location.href = "/blog/2023/linux-command/";
+          
+        },
+      },{id: "post-failed-to-connect-to-raw-githubusercontent-com-port-443-connection-refused",
+        
+          title: "Failed to connect to raw.githubusercontent.com port 443: Connection refused",
+        
+        description: "",
+        section: "Posts",
+        handler: () => {
+          
+            window.location.href = "/blog/2023/wget-conn-refused/";
           
         },
       },{id: "post-ssh免密登陆配置",
