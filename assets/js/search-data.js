@@ -74,6 +74,28 @@ ninja.data = [{
             window.location.href = "/blog/2023/args-kwargs/";
           
         },
+      },{id: "post-include-errors-detected-in-vscode-c",
+        
+          title: "Include errors detected in VSCode - C++",
+        
+        description: "",
+        section: "Posts",
+        handler: () => {
+          
+            window.location.href = "/blog/2023/include-error-cpp-vscode/";
+          
+        },
+      },{id: "post-tmux-2-6设置鼠标滚轮滚动",
+        
+          title: "tmux 2.6设置鼠标滚轮滚动",
+        
+        description: "",
+        section: "Posts",
+        handler: () => {
+          
+            window.location.href = "/blog/2023/tmux-scroll/";
+          
+        },
       },{id: "post-building-wheels-for-torch-sparse-takes-forever",
         
           title: "Building wheels for torch_sparse takes forever",
