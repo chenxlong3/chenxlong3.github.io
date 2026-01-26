@@ -1,6 +1,6 @@
 ---
 layout: post
-title: DiffusionNFT环境配置踩坑合集
+title: 质数表的建立
 date: 2021-09-02 23:01:31
 tags: "Algorithm"
 mathjax: true
