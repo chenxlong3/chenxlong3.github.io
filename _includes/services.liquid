@@ -1,7 +1,7 @@
 <div class="service">
   {%- for section in site.data.services -%}
   <div class="service-item">
-    <b>{{ section.category }}:</b>
+    <strong style="font-weight: bold;">{{ section.category }}:</strong>
     {{ section.items | join: ", " }}
   </div>
   {%- endfor -%}
