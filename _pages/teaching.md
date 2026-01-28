@@ -2,11 +2,13 @@
 layout: page
 permalink: /teaching/
 title: Teaching
-description: Materials for courses you taught. Replace this text with your description.
+description: Teaching experience
 nav: true
 nav_order: 6
 ---
 
-For now, this page is assumed to be a static description of your courses. You can convert it to a collection similar to `_projects/` so that you can have a dedicated page for each course.
+Teaching Assistant, DSAA 5002 - Data Mining and Knowledge Discovery in Data Science, HKUST(GZ), 2024 Spring.
 
-Organize your courses by years, topics, or universities, however you like!
+Teaching Assistant, INFH 5000 - Information Science and Technology: Essentials and Trends, HKUST(GZ), 2024 Fall.
+
+Teaching Assistant, DSAA 2043 - Design and Analysis of Algorithms, HKUST(GZ), 2024 Fall.
