@@ -1,0 +1,10 @@
+<div class="service">
+  {%- for section in site.data.services -%}
+  <h3 class="mt-4">{{ section.category }}</h3>
+  <ul class="list-unstyled">
+    {%- for item in section.items -%}
+    <li class="mb-2">{{ item }}</li>
+    {%- endfor -%}
+  </ul>
+  {%- endfor -%}
+</div>
