@@ -1,5 +1,5 @@
 metadata:
-  last_updated: '2026-02-13'
+  last_updated: '2026-03-23'
 papers:
   FnznrkIAAAAJ:2osOgNQ5qMEC:
     citations: 2
@@ -9,11 +9,15 @@ papers:
     citations: 0
     title: Scalable Link Recommendation for Influence Maximization
     year: '2025'
+  FnznrkIAAAAJ:UeHWp8X0CEIC:
+    citations: 1
+    title: Assessing mindset states of Hong Kong secondary students using machine learning in real-world online learning environment
+    year: '2025'
   FnznrkIAAAAJ:d1gkVwhDpl0C:
-    citations: 13
+    citations: 15
     title: Link Recommendation to Augment Influence Diffusion with Provable Guarantees
     year: '2024'
   FnznrkIAAAAJ:qjMakFHDy7sC:
-    citations: 14
+    citations: 18
     title: 'You only sample once: Taming one-step text-to-image synthesis by self-cooperative diffusion gans'
     year: '2024'
