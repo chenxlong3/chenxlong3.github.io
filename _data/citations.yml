@@ -1,13 +1,17 @@
 metadata:
-  last_updated: '2026-05-01'
+  last_updated: '2026-05-08'
 papers:
   FnznrkIAAAAJ:2osOgNQ5qMEC:
-    citations: 4
+    citations: 5
     title: Efficient Graph Embedding Generation and Update for Large-Scale Temporal Graph
     year: '2024'
   FnznrkIAAAAJ:9yKSN-GCB0IC:
     citations: 1
     title: Scalable Link Recommendation for Influence Maximization
+    year: '2025'
+  FnznrkIAAAAJ:IjCSPb-OGe4C:
+    citations: 0
+    title: Augmenting Social Influence of Uncertain Seeds via Probabilistic Link Insertion
     year: '2025'
   FnznrkIAAAAJ:UeHWp8X0CEIC:
     citations: 1
@@ -18,6 +22,6 @@ papers:
     title: Link Recommendation to Augment Influence Diffusion with Provable Guarantees
     year: '2024'
   FnznrkIAAAAJ:qjMakFHDy7sC:
-    citations: 21
+    citations: 22
     title: 'You only sample once: Taming one-step text-to-image synthesis by self-cooperative diffusion gans'
     year: '2024'
