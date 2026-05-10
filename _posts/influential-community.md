@@ -96,10 +96,17 @@ D(S) = \sum_{v \in V(G)} max_{g \in S} cpp(g,v)
 有了第一篇文章的前置知识，第二篇文章其实相当好理解了。
 
 ## 背景
+除了找到影响力最大的社区，另一个比较常见的需求是找到最能影响某个特定社群的种子社区。
 
 ## 问题定义
+社区对社区的影响力定义为
+
+inf(S, Q) = \sum u\in S \sum v \in Q upp(u,v)
+
+给定一组query keywords L_q，整数k，最大community用户数量N，以及一个目标社区Q，Reverse Influential Community Search (RICS)旨在找到一个seed community S，使得nif(S,Q)最大。
 
 ## 方法
+同样地，分两步走，离线构建索引和在线问询处理。
 
 # 参考文献
 
