@@ -106,7 +106,7 @@ inf(S, Q) = \sum u\in S \sum v \in Q upp(u,v)
 给定一组query keywords L_q，整数k，最大community用户数量N，以及一个目标社区Q，Reverse Influential Community Search (RICS)旨在找到一个seed community S，使得inf(S,Q)最大。作者也提出了一个变种，relaxed RICS (R^2 ICS)，放松了k-truss和半径的限制。
 
 ## 方法
-同样地，分两步走，离线构建索引和在线问询处理。
+同样地，分两步走，离线构建索引和在线问询处理。在离线构建索引的过程中，记录support和influence score的upper bound。
 
 # 参考文献
 
@@ -115,17 +115,3 @@ inf(S, Q) = \sum u\in S \sum v \in Q upp(u,v)
 3. Tang, Y., Xiao, X., & Shi, Y. (2014, June). Influence maximization: Near-optimal time complexity meets practical efficiency. In *Proceedings of the 2014 ACM SIGMOD international conference on Management of data* (pp. 75-86).
 4. Tang, Y., Shi, Y., & Xiao, X. (2015, May). Influence maximization in near-linear time: A martingale approach. In *Proceedings of the 2015 ACM SIGMOD international conference on management of data* (pp. 1539-1554).
 5. Tang, J., Tang, X., Xiao, X., & Yuan, J. (2018, May). Online processing algorithms for influence maximization. In *Proceedings of the 2018 international conference on management of data* (pp. 991-1005).
-6. Ohsaka, N., Akiba, T., Yoshida, Y., & Kawarabayashi, K. I. (2016). Dynamic influence analysis in evolving networks. *Proceedings of the VLDB Endowment*, *9*(12), 1077-1088.
-7. Peng, B. (2021). Dynamic influence maximization. *Advances in Neural Information Processing Systems*, *34*, 10718-10731.
-8. Yang, Y., Wang, Z., Pei, J., & Chen, E. (2017). Tracking influential individuals in dynamic networks. *IEEE Transactions on Knowledge and Data Engineering*, *29*(11), 2615-2628.
-9. Chen, X., Song, Y., & Tang, J. (2024, May). Link recommendation to augment influence diffusion with provable guarantees. In *Proceedings of the ACM Web Conference 2024* (pp. 2509-2518).
-10. Guo, Q., Feng, C., Zhang, F., & Wang, S. (2023). Efficient algorithm for budgeted adaptive influence maximization: An incremental rr-set update approach. *Proceedings of the ACM on Management of Data*, *1*(3), 1-26.
-11. Han, K., Huang, K., Xiao, X., Tang, J., Sun, A., & Tang, X. (2018). Efficient algorithms for adaptive influence maximization. *Proceedings of the VLDB Endowment*, *11*(9), 1029-1040.
-12. Huang, K., Tang, J., Han, K., Xiao, X., Chen, W., Sun, A., ... & Lim, A. (2020). Efficient approximation algorithms for adaptive influence maximization. *The VLDB Journal*, *29*(6), 1385-1406.
-13. Cautis, B., Maniu, S., & Tziortziotis, N. (2019, July). Adaptive influence maximization. In *Proceedings of the 25th ACM SIGKDD International Conference on Knowledge Discovery & Data Mining* (pp. 3185-3186).
-14. Tang, J., Huang, K., Xiao, X., Lakshmanan, L. V., Tang, X., Sun, A., & Lim, A. (2019, June). Efficient approximation algorithms for adaptive seed minimization. In *Proceedings of the 2019 International Conference on Management of Data*(pp. 1096-1113).
-15. Sun, L., Huang, W., Yu, P. S., & Chen, W. (2018, July). Multi-round influence maximization. In *Proceedings of the 24th ACM SIGKDD international conference on knowledge discovery & data mining* (pp. 2249-2258).
-16. Zhang, S., Huang, Y., Sun, J., Lin, W., Xiao, X., & Tang, B. (2023, August). Capacity constrained influence maximization in social networks. In *Proceedings of the 29th ACM SIGKDD conference on knowledge discovery and data mining* (pp. 3376-3385).
-17. Huang, Y., Zhang, S., Lakshmanan, L. V., Lin, W., Xiao, X., & Tang, B. (2024). Efficient and Effective Algorithms for A Family of Influence Maximization Problems with A Matroid Constraint. *Proceedings of the VLDB Endowment*, *18*(2), 117-129.
-18. Chen, X., & Tang, J. (2025, July). Scalable Link Recommendation for Influence Maximization. In *Proceedings of the 31st ACM SIGKDD Conference on Knowledge Discovery and Data Mining V. 1* (pp. 130-141).
-19. Rui, X., Wang, Z., Zhao, J., Sun, L., & Chen, W. (2023). Scalable fair influence maximization. *Advances in Neural Information Processing Systems*, *36*, 66675-66691.
