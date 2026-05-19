@@ -103,7 +103,7 @@ D(S) = \sum_{v \in V(G)} max_{g \in S} cpp(g,v)
 
 inf(S, Q) = \sum u\in S \sum v \in Q upp(u,v)
 
-给定一组query keywords L_q，整数k，最大community用户数量N，以及一个目标社区Q，Reverse Influential Community Search (RICS)旨在找到一个seed community S，使得nif(S,Q)最大。
+给定一组query keywords L_q，整数k，最大community用户数量N，以及一个目标社区Q，Reverse Influential Community Search (RICS)旨在找到一个seed community S，使得inf(S,Q)最大。作者也提出了一个变种，relaxed RICS (R^2 ICS)，放松了k-truss和半径的限制。
 
 ## 方法
 同样地，分两步走，离线构建索引和在线问询处理。
