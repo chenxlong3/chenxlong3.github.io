@@ -30,7 +30,18 @@ ninja.data = [{
           handler: () => {
             window.location.href = "/teaching/";
           },
-        },{id: "post-diffusionnft环境配置踩坑合集",
+        },{id: "post-影响力最大社区搜索",
+        
+          title: "影响力最大社区搜索",
+        
+        description: "",
+        section: "Posts",
+        handler: () => {
+          
+            window.location.href = "/blog/2026/influential-community/";
+          
+        },
+      },{id: "post-diffusionnft环境配置踩坑合集",
         
           title: "DiffusionNFT环境配置踩坑合集",
         
