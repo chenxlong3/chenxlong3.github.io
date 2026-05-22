@@ -30,9 +30,9 @@ ninja.data = [{
           handler: () => {
             window.location.href = "/teaching/";
           },
-        },{id: "post-影响力最大社区搜索",
+        },{id: "post-文献阅读-影响力最大社区搜索-top-l-most-influential-community-detection-over-social-networks",
         
-          title: "影响力最大社区搜索",
+          title: "【文献阅读】影响力最大社区搜索 - Top-L Most Influential Community Detection Over Social Networks",
         
         description: "",
         section: "Posts",
