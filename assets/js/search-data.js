@@ -228,6 +228,17 @@ ninja.data = [{
             window.location.href = "/blog/2021/prime-table/";
           
         },
+      },{id: "post-逻辑回归-一-0还是1",
+        
+          title: "逻辑回归（一）：0还是1？",
+        
+        description: "",
+        section: "Posts",
+        handler: () => {
+          
+            window.location.href = "/blog/2021/lgR1/";
+          
+        },
       },{id: "post-线性回归-机器学习的-hello-world",
         
           title: "线性回归：机器学习的“Hello, World“",
