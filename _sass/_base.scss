@@ -83,7 +83,15 @@ li,
 span,
 strong {
   color: var(--global-text-color);
-  font-family: 'Lato', Verdana, sans-serif, Arial;
+  // Latin: Lato (@font-face above). Han: next fonts (Noto Sans SC from Google Fonts, then OS fallbacks).
+  font-family:
+    'Lato',
+    'Noto Sans SC',
+    'PingFang SC',
+    'Hiragino Sans GB',
+    'Microsoft YaHei',
+    'Source Han Sans SC',
+    sans-serif;
 }
 
 hr {
