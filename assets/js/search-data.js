@@ -228,6 +228,17 @@ ninja.data = [{
             window.location.href = "/blog/2021/prime-table/";
           
         },
+      },{id: "post-动态规划与最长重复子串",
+        
+          title: "动态规划与最长重复子串",
+        
+        description: "",
+        section: "Posts",
+        handler: () => {
+          
+            window.location.href = "/blog/2021/dpLRS/";
+          
+        },
       },{id: "post-逻辑回归-二-loss易导",
         
           title: "逻辑回归（二）：Loss易导",
