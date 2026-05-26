@@ -2,7 +2,7 @@
 layout: post
 title: 质数表的建立2——欧拉筛法
 date: 2023-03-10
-tags: "Techniques"
+tags: "Algorithm"
 mathjax: true
 related_posts: false
 ---

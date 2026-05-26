@@ -2,7 +2,7 @@
 layout: post
 title: 利用牛顿迭代法开根号
 date: 2021-09-03 22:41:06
-tags: "Math"
+tags: "Algorithm"
 mathjax: true
 comments: true
 related_posts: false

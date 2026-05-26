@@ -2,7 +2,7 @@
 layout: post
 title: 量子电路的矩阵“翻译”——以Grover Search Algorithm为例
 date: 2021-12-11 23:33:57
-tags: "Math"
+tags: "Algorithm"
 mathjax: true
 comments: true
 related_posts: false
