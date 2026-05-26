@@ -162,6 +162,17 @@ ninja.data = [{
             window.location.href = "/blog/2023/ssh-nopwd/";
           
         },
+      },{id: "post-量子电路的矩阵-翻译-以grover-search-algorithm为例",
+        
+          title: "量子电路的矩阵“翻译”——以Grover Search Algorithm为例",
+        
+        description: "",
+        section: "Posts",
+        handler: () => {
+          
+            window.location.href = "/blog/2021/matrixCircuit/";
+          
+        },
       },{id: "post-红黑树-一-性质及插入操作",
         
           title: "红黑树（一） 性质及插入操作",
