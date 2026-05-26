@@ -228,6 +228,17 @@ ninja.data = [{
             window.location.href = "/blog/2021/prime-table/";
           
         },
+      },{id: "post-逻辑回归-二-loss易导",
+        
+          title: "逻辑回归（二）：Loss易导",
+        
+        description: "",
+        section: "Posts",
+        handler: () => {
+          
+            window.location.href = "/blog/2021/lgR2/";
+          
+        },
       },{id: "post-逻辑回归-一-0还是1",
         
           title: "逻辑回归（一）：0还是1？",
@@ -259,6 +270,17 @@ ninja.data = [{
         handler: () => {
           
             window.location.href = "/blog/2021/pca/";
+          
+        },
+      },{id: "post-人间滚烫-我的理想",
+        
+          title: "人间滚烫，我的理想",
+        
+        description: "",
+        section: "Posts",
+        handler: () => {
+          
+            window.location.href = "/blog/2021/dream/";
           
         },
       },{id: "books-the-godfather",
