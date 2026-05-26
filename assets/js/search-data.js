@@ -162,6 +162,17 @@ ninja.data = [{
             window.location.href = "/blog/2023/ssh-nopwd/";
           
         },
+      },{id: "post-红黑树-一-性质及插入操作",
+        
+          title: "红黑树（一） 性质及插入操作",
+        
+        description: "",
+        section: "Posts",
+        handler: () => {
+          
+            window.location.href = "/blog/2021/rbTree/";
+          
+        },
       },{id: "post-sum-and-product-puzzle-像程序员一样思考",
         
           title: "Sum and Product Puzzle——像程序员一样思考",
@@ -182,6 +193,17 @@ ninja.data = [{
         handler: () => {
           
             window.location.href = "/blog/2021/wlln/";
+          
+        },
+      },{id: "post-利用牛顿迭代法开根号",
+        
+          title: "利用牛顿迭代法开根号",
+        
+        description: "",
+        section: "Posts",
+        handler: () => {
+          
+            window.location.href = "/blog/2021/numerical-sqrt/";
           
         },
       },{id: "post-质数表的建立",
