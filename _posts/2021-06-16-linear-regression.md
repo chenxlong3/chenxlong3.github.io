@@ -4,6 +4,7 @@ title: 线性回归：机器学习的“Hello, World“
 date: 2021-06-16 20:41:18
 tags: "Learning"
 mathjax: true
+comments: true
 related_posts: false
 ---
 
@@ -70,11 +71,8 @@ $\{ (x^{(1),} y^{(1)}), (x^{(2),} y^{(2)}), (x^{(3),} y^{(3)}), \dots, (x^{(m),}
 ##  梯度下降法（Gradient Descent）
 经过高中数学的学习，想必大家都知道了导数的几何意义，在某一点的导数就等于过这一点切线的斜率，如下图所示：
 
-<div class="row mt-3">
-    <div class="col-sm mt-3 mt-md-0">
-        {% include figure.liquid loading="eager" path="assets/img/posts/linear-regression/LR1.jpg" class="img-fluid rounded z-depth-1" zoomable=true %}
-    </div>
-</div>
+<img src="/assets/img/posts/linear-regression/LR1.jpg"  
+     style="width: 80%; height: auto; margin:auto; display:block;">
 
 显然，在$x_1$处的导数小于0，意味着在这个点的右边还有会使$y$更小的$x$值，暗示我们向右取值；相反地，在$x_2$处的导数大于0，意味着在这个点的左边有能使$y$更小的$x$值，暗示我们向左取值。所以就有如下的迭代策略：
 
