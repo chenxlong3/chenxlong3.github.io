@@ -25,18 +25,25 @@ Venue: ICDE 2024
 
 ### 信息传播
 该文章采用的传播模型为maximum influence arborescence (MIA)模型。给定 $u$ 到 $v$ 的一条路径 $P_{u,v} = \langle u=u_1, u_2, \dots, u_m=v \rangle$，则这条路径的传播概率为：
+
 $$
 pp(P_{u,v}) = \prod_{i=1}^{m-1} p_{u_i, u_{i+1}}
 $$
+
 MIA传播模型利用最大影响路径（maximum influence path, MIP）来简化描述 $u$ 到 $v$ 的传播。MIP的定义为两点之间传播概率最大的路径，数学上：
+
 $$
 MIP_{u,v} = \mathop{\arg\max}\limits_{P_{u,v}}\, pp(P_{u,v}).
 $$
+
 基于上述定义，用户个体之间的影响概率被简化为它们之间的MIP的概率，即：
+
 $$
 upp(u, v) = pp(MIP_{u,v})
 $$
+
 相应地，一个社区 $g$ 对个体的community-to-user的影响概率计算如下
+
 $$
 cpp(g, v) = 
 \begin{cases}

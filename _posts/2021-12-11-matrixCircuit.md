@@ -15,7 +15,7 @@ related_posts: false
 经典计算机里的一个比特有两个状态——0和1。与之类似，一个量子比特 (qubit) 存在两个计算基本状态，$|0\rangle$和$|1\rangle$，它们可以写作如下的向量形式：
 
 $$
-\begin{align}
+\begin{aligned}
 |0\rangle = 
 \begin{bmatrix}
 1 \\
@@ -26,16 +26,16 @@ $$
 0 \\
 1
 \end{bmatrix}
-\end{align}
+\end{aligned}
 $$
 
 一个qubit可以表示$|0\rangle$，$|1\rangle$，也可以表示它们的任意线性组合，即：
 
 
 $$
-\begin{align}
+\begin{aligned}
 |\psi\rangle = a|0\rangle + b|1\rangle
-\end{align}
+\end{aligned}
 $$
 
 其中$a$和$b$为满足$a^2+b^2 = 1$的复数，笔者没学过复分析，对这方面知识并不了解。在这篇blog中先将$a$与$b$视为实数，以简化分析过程。$a^2$表示这个qubit经过一次测量之后，得到的是$|0\rangle$的概率，同理，$b^2$表示这个qubit经过一次测量之后，得到的是$|1\rangle$的概率。
@@ -124,7 +124,7 @@ $$
 
 
 $$
-\begin{align}
+\begin{aligned}
 H|0\rangle &= \frac{1}{\sqrt{2}}
 \begin{bmatrix}
 1\\
@@ -135,7 +135,7 @@ H|1\rangle &= \frac{1}{\sqrt{2}}
 1\\
 -1
 \end{bmatrix}
-\end{align}
+\end{aligned}
 $$
 
 
@@ -147,38 +147,38 @@ $$
 ## S Gate
 
 $$
-\begin{align}
+\begin{aligned}
 S = \begin{bmatrix}
 1 & 0 \\
 0 & i
 \end{bmatrix}
-\end{align}
+\end{aligned}
 $$
 
 
 ## Z Gate
 
 $$
-\begin{align}
+\begin{aligned}
 Z = \begin{bmatrix}
 1 & 0 \\
 0 & -1
 \end{bmatrix}
-\end{align}
+\end{aligned}
 $$
 
 
 ## CZ Gate
 
 $$
-\begin{align}
+\begin{aligned}
 CZ = \begin{bmatrix}
     1 & 0 & 0 & 0\\
     0 & 1 & 0 & 0\\
     0 & 0 & 1 & 0\\
     0 & 0 & 0 & -1\\
     \end{bmatrix}.
-\end{align}
+\end{aligned}
 $$
 
 
@@ -193,7 +193,7 @@ $$
 在介绍这部分的运算规则之前，不妨首先想一想，我们应该怎么样表示$|01\rangle$这两个qubits。在有两个qubits的情况下，计算的基态一共有四种，即$|00\rangle$，$|01\rangle$，$|10\rangle$和$|11\rangle$。根据线性代数的方式，我们将它们视为四个基向量，它们的所有线性组合，会span出来一个四维空间。所以，基于$|0\rangle$和$|1\rangle$，我们需要得到以下四个向量。
 
 $$
-\begin{align}
+\begin{aligned}
 \begin{bmatrix}
 1 \\
 0 \\
@@ -218,7 +218,7 @@ $$
 0 \\
 1
 \end{bmatrix}
-\end{align}
+\end{aligned}
 $$
 
 But how？
@@ -230,7 +230,7 @@ But how？
 
 
 $$
-\begin{align}
+\begin{aligned}
 A\otimes B=
 \begin{bmatrix}
 a_{11}B & a_{12}B & \cdots & a_{1n}B \\
@@ -238,14 +238,14 @@ a_{21}B & a_{22}B & \cdots & a_{2n}B \\
 \vdots & \vdots & \ddots & \vdots \\
 a_{m1}B & a_{m2}B & \cdots & a_{mn}B
 \end{bmatrix}
-\end{align}
+\end{aligned}
 $$
 
 于是
 
 
 $$
-\begin{align}
+\begin{aligned}
 |00\rangle =\begin{bmatrix}
 1 \\
 0
@@ -276,7 +276,7 @@ $$
 0 \\
 0
 \end{bmatrix}
-\end{align}
+\end{aligned}
 $$
 
 
@@ -310,7 +310,7 @@ Grover Search algorithm可以实现对无序列表中的某个item的搜索。�
 以在两个比特的叠加态中搜索$|01\rangle$为例。$U_\omega$的目的是翻转$|\omega\rangle$方向上的分量，其实就相当于把系数乘以-1。在这个例子中，这个操作算符可以写为，
 
 $$
-\begin{align}
+\begin{aligned}
 U_\omega = 
     \begin{bmatrix}
     1 & 0 & 0 & 0\\
@@ -318,14 +318,14 @@ U_\omega =
     0 & 0 & 1 & 0\\
     0 & 0 & 0 & 1\\
     \end{bmatrix}.
-\end{align}
+\end{aligned}
 $$
 
 
 那么对于第二次的翻转，可以理解为向$|s\rangle$方向上投影，然后延长两倍，再减去自身，可以写为，
 
 $$
-\begin{align}
+\begin{aligned}
     U_s &= 2|s\rangle\langle s| - I
     =\begin{bmatrix}
     -1 & 1 & 1 & 1\\
@@ -333,7 +333,7 @@ $$
     1 & 1 & -1 & 1\\
     1 & 1 & 1 & -1\\
     \end{bmatrix}.
-\end{align}
+\end{aligned}
 $$
 
 
