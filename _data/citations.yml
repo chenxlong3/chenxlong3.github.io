@@ -1,5 +1,5 @@
 metadata:
-  last_updated: '2026-06-03'
+  last_updated: '2026-06-22'
 papers:
   FnznrkIAAAAJ:2osOgNQ5qMEC:
     citations: 5
@@ -22,6 +22,6 @@ papers:
     title: Link Recommendation to Augment Influence Diffusion with Provable Guarantees
     year: '2024'
   FnznrkIAAAAJ:qjMakFHDy7sC:
-    citations: 22
+    citations: 23
     title: 'You only sample once: Taming one-step text-to-image synthesis by self-cooperative diffusion gans'
     year: '2024'
